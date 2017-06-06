@@ -1,0 +1,45 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipType": "many-to-many",
+            "otherEntityRelationshipName": "product",
+            "relationshipName": "subcategory",
+            "otherEntityName": "subcategory",
+            "otherEntityField": "name",
+            "ownerSide": true
+        },
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "brand",
+            "otherEntityName": "brand",
+            "otherEntityField": "brandName"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "description",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "price",
+            "fieldType": "BigDecimal"
+        },
+        {
+            "fieldName": "size",
+            "fieldType": "Size",
+            "fieldValues": "S,M,L,XL,XXL"
+        }
+    ],
+    "changelogDate": "20170606062247",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "product",
+    "pagination": "no",
+    "microserviceName": "brandproducts",
+    "searchEngine": "elasticsearch"
+}

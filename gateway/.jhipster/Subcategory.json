@@ -1,0 +1,35 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "category",
+            "otherEntityName": "category",
+            "otherEntityField": "name"
+        },
+        {
+            "relationshipType": "many-to-many",
+            "relationshipName": "product",
+            "otherEntityName": "product",
+            "ownerSide": false,
+            "otherEntityRelationshipName": "subcategory"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "alcohol",
+            "fieldType": "Boolean"
+        }
+    ],
+    "changelogDate": "20170606065335",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "subcategory",
+    "pagination": "no",
+    "microserviceName": "brandproducts",
+    "searchEngine": "elasticsearch"
+}

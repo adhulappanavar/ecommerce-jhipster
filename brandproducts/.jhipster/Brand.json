@@ -1,0 +1,24 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "relationshipName": "product",
+            "otherEntityName": "product",
+            "otherEntityRelationshipName": "brand"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "brandName",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20170606061841",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "brand",
+    "pagination": "no",
+    "microserviceName": "brandproducts",
+    "searchEngine": "elasticsearch"
+}
