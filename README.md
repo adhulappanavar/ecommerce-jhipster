@@ -21,3 +21,8 @@
   a. $ yo jhipster:entity Brand &&  yo jhipster:entity Product &&  yo jhipster:entity Category &&  yo jhipster:entity Subcategory
   b. $ ./gradlew
   
+  
+5. Visulaise the Entity Model using JDL-Studio 
+  a. Browse to https://jhipster.github.io/jdl-studio/
+  b. Paste the contents of jhipster.jdl on the studio
+  
