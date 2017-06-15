@@ -25,4 +25,5 @@
 5. Visulaise the Entity Model using JDL-Studio 
   a. Browse to https://jhipster.github.io/jdl-studio/
   b. Paste the contents of jhipster.jdl on the studio
+  [![mutt dark](https://github.com/adhulappanavar/ecommerce-jhipster/blob/master/JhipsterJDLStudioEntityDiagram4Ecomm.png)](https://github.com/adhulappanavar/ecommerce-jhipster/blob/master/JhipsterJDLStudioEntityDiagram4Ecomm.png)
   
